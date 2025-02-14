@@ -11,6 +11,10 @@
 	</parent>
 
 	<name>Explore With Me</name>
+	<modules>
+		<module>ewm-main</module>
+		<module>ewm-stats</module>
+	</modules>
 
 	<groupId>ru.practicum</groupId>
 	<artifactId>explore-with-me</artifactId>
@@ -21,6 +25,14 @@
 		<java.version>21</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>jakarta.validation</groupId>
+			<artifactId>jakarta.validation-api</artifactId>
+			<version>3.0.2</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<pluginManagement>
